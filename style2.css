@@ -18,3 +18,26 @@ h2 {
     color: #ffffff;
     text-align: margin; right: 10%; left: 70%;; 
 }
+.myButton {
+	box-shadow: 0px 0px 0px 2px #d8b5d3;
+	background:linear-gradient(to bottom, #c278bc 5%, #c278bc 100%);
+	background-color:#c282ad;
+	border-radius:10px;
+	border:1px solid #bb7eb6;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #bd89c7;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #c672ce 5%, #ca84df 100%);
+	background-color:#e49bf3;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
